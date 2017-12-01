@@ -249,7 +249,7 @@ function sqs_receive_message(queue::AWSQueue)
 end
 
 
-type AWSSQSMessages queue end
+mutable struct AWSSQSMessages queue end
 
 
 """
